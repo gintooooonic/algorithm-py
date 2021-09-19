@@ -2,14 +2,23 @@
 
 ## Python으로 알고리즘 문제 풀어보기
 
-### C++ vs. Python in PS
+C++에서 Python으로. C++보다 나을까?
+
+### Python vs. C++?
 
 .
 
-### Python Tricks
+### Python Tips
 
 .
 
-### Index
+### 공부하기
+
+- [A Byte of Python](https://python.swaroopch.com/)
+- [Baekjoon Online Judge](https://www.acmicpc.net/)
+- [Programmers](https://programmers.co.kr/)
+- [CP-Algorithms](https://cp-algorithms.com/)
+
+### 모음
 
 .
