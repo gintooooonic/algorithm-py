@@ -122,4 +122,38 @@ Changed global x to 2
 Value of x is 2
 ```
 
-### 람다 함수
+### 람다 함수와 고차 함수
+
+참고자료: https://wikidocs.net/64
+
+__람다 함수__
+
+다음 Syntax를 통해 람다 함수를 만들어 사용할 수 있다.
+
+```python
+# lambda 인자 : 표현식
+(lambda x, y: x + y)(10, 20)
+```
+
+__고차 함수__
+
+Python의 몇 가지 고차 함수에 대해 살펴보자.
+
+- map
+```python
+# map(함수, 리스트)
+# 'map' 객체가 반환되므로 list로 변환
+list(map(lambda x: x ** 2, range(5)))
+```
+- reduce
+```python
+# reduce(함수, 시퀀스)
+from functools import reduce
+reduce(lambda x, y: x + y, [0, 1, 2, 3, 4])
+```
+- filter
+```python
+# filter(함수, 리스트)
+# 'filter' 객체가 반환되므로 list로 변환
+list(filter(lambda x: x < 5, range(10)))
+```
