@@ -1,6 +1,6 @@
 from sys import stdin, stdout
-sin = stdin.readline
-sout = stdout.write
+input = stdin.readline
+print = lambda s, end = '\n': stdout.write(str(s) + end)
 
 # input
 
