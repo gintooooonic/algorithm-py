@@ -2,6 +2,8 @@
 
 ## Python으로 알고리즘 문제 풀어보기
 
+[PS용 Python 코드 템플릿 (업데이트 중)](template.py)
+
 ### 목차
 
 0. [Python 기초](00-python-basic/)
